@@ -1,0 +1,10 @@
+
+<ListView [items] = "cinemas | async" class="list-group">
+<ng-template let-cinema="item" let-odd="odd" let-even="even">
+<StackLayout>
+<label [text]="cinema.name" class="list-group-item"></label>
+<label [text]="cinema.id" class="list-group-item"></label>
+<label [text]="cinema.distance" class="list-group-item"></label>
+</StackLayout>
+</ng-template>
+</ListView>

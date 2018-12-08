@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   title = 'cinema';
-  private counter = 42;
+  private counter = 10;
 
   constructor() { }
 
